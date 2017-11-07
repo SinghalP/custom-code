@@ -1,11 +1,11 @@
 /**
- * Wait for the Global variables or DOM elements and executes callback once all of them are      found. Will wait until document is completely loaded.
+ * Wait for the Global variables or DOM elements and executes callback once all of them are found. Will wait until document is completely loaded.
  * 
  * @param {array} arr - array of either DOM elements or Global variables
  * @param {function} callback - callback once all the DOM elements/global variables are found
  * @param {boolean} isDomElement - if the items in arr are DOM elements
  * 
- * @error - if less than 2 parameters are passed or 1st parameter not an Array or 2nd 					parameter not a function
+ * @error - if less than 2 parameters are passed or 1st parameter not an Array or 2nd parameter not a function
  */
 	
 function waitUntil( arr, callback, isDomElement ){
